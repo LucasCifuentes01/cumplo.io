@@ -32,18 +32,24 @@ export default function Home() {
                   </p>
                 </div>
                 <div className='flex flex-col w-full gap-2 max-w-md min-[400px]:flex-row'>
-                  <Link href='#waitlist'>
-                    <Button
-                      size='lg'
-                      className='bg-violet-600 hover:bg-violet-700 flex-1'
-                    >
-                      Comenzar ahora
-                    </Button>
-                  </Link>
+                  <div className='w-full'>
+                    <Link href='#waitlist'>
+                      <Button
+                        size='lg'
+                        className='bg-violet-600 hover:bg-violet-700 flex-1 w-full'
+                      >
+                        Comenzar ahora
+                      </Button>
+                    </Link>
+                  </div>
 
                   <div className='w-full'>
                     <Link href='#como-funciona'>
-                      <Button className='flex-1' size='lg' variant='outline'>
+                      <Button
+                        className='w-full flex-1'
+                        size='lg'
+                        variant='outline'
+                      >
                         ¿Cómo funciona?
                       </Button>
                     </Link>
