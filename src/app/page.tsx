@@ -2,10 +2,9 @@ import Benefits from "@/components/benefits";
 import HowItWorks from "@/components/how-it-works";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/waitlist-form";
-import Image from "next/image";
 
 import { Footer } from "@/components/footer";
-import LadingImage from "@/images/landingImage.jpg";
+import LandingImageSvg from "@/images/landingImage.svg";
 import Link from "next/link";
 
 export default function Home() {
@@ -57,14 +56,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='flex items-center justify-center'>
-                <Image
-                  src={LadingImage}
-                  alt='Personas colaborando para cumplir metas'
-                  width={500}
-                  height={400}
-                  className='rounded-lg object-cover shadow-lg border border-violet-100 dark:border-violet-800'
-                  priority
-                />
+                <LandingImageSvg />
               </div>
             </div>
           </div>
