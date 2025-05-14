@@ -14,7 +14,7 @@ export default function Congrats() {
       </header>
       <div className='flex items-center justify-center flex-1'>
         <div className='flex flex-col items-center justify-center space-y-6 rounded-lg border border-violet-200 bg-violet-50 p-8 text-violet-900 w-full max-w-md'>
-          <CheckCircle className='h-12 w-12 text-violet-600 dark:text-violet-400' />
+          <CheckCircle className='h-12 w-12 text-violet-60' />
           <h3 className='text-2xl font-bold text-center'>¡Felicidades!</h3>
           <p className='text-center'>
             Te has unido exitosamente a la lista de espera de cumpli.me. Serás
@@ -27,7 +27,7 @@ export default function Congrats() {
               </Button>
             </Link>
           </div>
-          <div className='pt-4 border-t border-violet-200 dark:border-violet-800 w-full'>
+          <div className='pt-4 border-t border-violet-200 w-full'>
             <p className='text-sm text-center text-muted-foreground'>
               ¿Quieres ayudarnos a crecer? ¡Comparte cumpli.me con tus amigos!
             </p>

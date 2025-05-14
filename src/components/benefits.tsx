@@ -4,15 +4,15 @@ export default function Benefits() {
   return (
     <section
       id='beneficios'
-      className='w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-violet-50 to-purple-100 dark:from-violet-950 dark:to-purple-900'
+      className='w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-violet-50 to-purple-100'
     >
       <div className='px-4 md:px-6'>
         <div className='flex flex-col items-center justify-center space-y-4 text-center'>
           <div className='space-y-2'>
-            <div className='inline-block rounded-lg bg-violet-100 px-3 py-1 text-sm text-violet-900 dark:bg-violet-900 dark:text-violet-100'>
+            <div className='inline-block rounded-lg bg-violet-100 px-3 py-1 text-sm text-violet-900'>
               Por qué elegir cumpli.me
             </div>
-            <h2 className='text-3xl font-bold tracking-tighter sm:text-5xl text-violet-900 dark:text-violet-100'>
+            <h2 className='text-3xl font-bold tracking-tighter sm:text-5xl text-violet-900'>
               Beneficios clave
             </h2>
             <p className='max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed'>
@@ -22,10 +22,10 @@ export default function Benefits() {
         </div>
         <div className='mx-auto grid max-w-5xl gap-8 py-12 md:grid-cols-2 lg:gap-12'>
           <div className='flex flex-col items-center space-y-4'>
-            <div className='flex h-14 w-14 items-center justify-center rounded-full bg-violet-100 text-violet-900 dark:bg-violet-900 dark:text-violet-100'>
+            <div className='flex h-14 w-14 items-center justify-center rounded-full bg-violet-100 text-violet-900'>
               <Rocket className='h-6 w-6' />
             </div>
-            <h3 className='text-2xl font-bold text-violet-900 dark:text-violet-100'>
+            <h3 className='text-2xl font-bold text-violet-900 '>
               Compromiso real
             </h3>
             <p className='text-center text-muted-foreground'>
@@ -34,10 +34,10 @@ export default function Benefits() {
             </p>
           </div>
           <div className='flex flex-col items-center space-y-4'>
-            <div className='flex h-14 w-14 items-center justify-center rounded-full bg-violet-100 text-violet-900 dark:bg-violet-900 dark:text-violet-100'>
+            <div className='flex h-14 w-14 items-center justify-center rounded-full bg-violet-100 text-violet-900'>
               <Zap className='h-6 w-6' />
             </div>
-            <h3 className='text-2xl font-bold text-violet-900 dark:text-violet-100'>
+            <h3 className='text-2xl font-bold text-violet-900'>
               Motivación constante
             </h3>
             <p className='text-center text-muted-foreground'>
@@ -47,10 +47,10 @@ export default function Benefits() {
             </p>
           </div>
           <div className='flex flex-col items-center space-y-4'>
-            <div className='flex h-14 w-14 items-center justify-center rounded-full bg-violet-100 text-violet-900 dark:bg-violet-900 dark:text-violet-100'>
+            <div className='flex h-14 w-14 items-center justify-center rounded-full bg-violet-100 text-violet-900'>
               <Shield className='h-6 w-6' />
             </div>
-            <h3 className='text-2xl font-bold text-violet-900 dark:text-violet-100'>
+            <h3 className='text-2xl font-bold text-violet-900'>
               Seguridad garantizada
             </h3>
             <p className='text-center text-muted-foreground'>
@@ -59,10 +59,10 @@ export default function Benefits() {
             </p>
           </div>
           <div className='flex flex-col items-center space-y-4'>
-            <div className='flex h-14 w-14 items-center justify-center rounded-full bg-violet-100 text-violet-900 dark:bg-violet-900 dark:text-violet-100'>
+            <div className='flex h-14 w-14 items-center justify-center rounded-full bg-violet-100 text-violet-900'>
               <Heart className='h-6 w-6' />
             </div>
-            <h3 className='text-2xl font-bold text-violet-900 dark:text-violet-100'>
+            <h3 className='text-2xl font-bold text-violet-900'>
               Confianza y transparencia
             </h3>
             <p className='text-center text-muted-foreground'>
