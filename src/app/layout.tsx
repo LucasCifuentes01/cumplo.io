@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "cumplo.io",
+  title: "cumpli.me",
   description: "La motivación que necesitabas para alcanzar tus metas.",
 };
 

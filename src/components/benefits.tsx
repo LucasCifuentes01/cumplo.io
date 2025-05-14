@@ -10,13 +10,13 @@ export default function Benefits() {
         <div className='flex flex-col items-center justify-center space-y-4 text-center'>
           <div className='space-y-2'>
             <div className='inline-block rounded-lg bg-violet-100 px-3 py-1 text-sm text-violet-900 dark:bg-violet-900 dark:text-violet-100'>
-              Por qué elegir cumplo.io
+              Por qué elegir cumpli.me
             </div>
             <h2 className='text-3xl font-bold tracking-tighter sm:text-5xl text-violet-900 dark:text-violet-100'>
               Beneficios clave
             </h2>
             <p className='max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed'>
-              Descubre cómo cumplo.io te ayuda a alcanzar tus metas
+              Descubre cómo cumpli.me te ayuda a alcanzar tus metas
             </p>
           </div>
         </div>

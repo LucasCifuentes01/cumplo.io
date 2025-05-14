@@ -13,7 +13,7 @@ export default function Home() {
     <div className='flex min-h-screen flex-col'>
       <header className='sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60'>
         <div className='flex h-16 items-center justify-between px-8'>
-          <p className='text-xl font-bold'>cumplo.io</p>
+          <p className='text-xl font-bold'>cumpli.me</p>
         </div>
       </header>
       <main className='flex-1'>
